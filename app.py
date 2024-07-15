@@ -136,6 +136,7 @@ elif submit2:
         st.error(f"File not found: {lottie_path}")
     else:
         # Load the Lottie animation
+        lottie_animation=None
         lottie_animation = load_lottiefile(lottie_path)
 
     # Display the Lottie animation centered using columns
