@@ -125,11 +125,11 @@ elif submit2:
     if job_match_value < 60:
         lottie_path = "animation_files/crying.json"
     elif 60 <= job_match_value < 70:
-        lottie_path = "animation_files/crying.json"
+        lottie_path = "animation_files/neutral.json"
     elif 70 <= job_match_value < 80:
-        lottie_path = "animation_files/crying.json"
+        lottie_path = "animation_files/happy.json"
     else:  # 80 and above
-        lottie_path = "animation_files/crying.json"
+        lottie_path = "animation_files/awesome.json"
 
     # Check if the file exists
     if not os.path.exists(lottie_path):
