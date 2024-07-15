@@ -138,12 +138,11 @@ elif submit2:
         # Load the Lottie animation
         lottie_animation=None
         lottie_animation = load_lottiefile(lottie_path)
+        # Display the Lottie animation centered using columns
+        col1, col2, col3 = st.columns([1, 1, 1])
 
-    # Display the Lottie animation centered using columns
-    col1, col2, col3 = st.columns([1, 1, 1])
-
-    with col2:
-        st_lottie(lottie_animation,width=100, height=100)
+        with col2:
+            st_lottie(lottie_animation,width=100, height=100)
 
 
    
