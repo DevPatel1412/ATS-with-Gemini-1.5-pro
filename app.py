@@ -143,7 +143,7 @@ elif submit2:
     col1, col2, col3 = st.columns([1, 1, 1])
 
     with col2:
-        st_lottie(lottie_animation, key="lottie_animation", width=100, height=100)
+        st_lottie(lottie_animation,width=100, height=100)
 
 
    
