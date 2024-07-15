@@ -123,13 +123,13 @@ elif submit2:
 
     # Determine which emoji to display based on the job match value
     if job_match_value < 60:
-        lottie_path = r"ATS-with-Gemini-1.5-pro\animation_files\crying.json"
+        lottie_path = r"/workspaces/ATS-with-Gemini-1.5-pro/animation_files/crying.json"
     elif 60 <= job_match_value < 70:
-        lottie_path = r"ATS-with-Gemini-1.5-pro\animation_files\neutral.json"
+        lottie_path = r"/workspaces/ATS-with-Gemini-1.5-pro/animation_files/neutral.json"
     elif 70 <= job_match_value < 80:
-        lottie_path = r"ATS-with-Gemini-1.5-pro\animation_files\happy.json"
+        lottie_path = r"/workspaces/ATS-with-Gemini-1.5-pro/animation_files/happy.json"
     else:  # 80 and above
-        lottie_path = r"ATS-with-Gemini-1.5-pro\animation_files\awesome.json"
+        lottie_path = r"/workspaces/ATS-with-Gemini-1.5-pro/animation_files/awesome.json"
 
     # Check if the file exists
     if not os.path.exists(lottie_path):
