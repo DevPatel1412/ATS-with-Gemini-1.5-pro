@@ -106,7 +106,7 @@ if submit1:
 
 elif submit2:
     # define the table_data as none
-    table_data=none
+    table_data=None
     if uploaded_file is not None:
         response=get_gemini_response(input_prompt_for_percentage_score)        
         st.subheader("The Repsonse is")
