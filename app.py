@@ -59,9 +59,9 @@ def load_lottiefile(filepath: str):
 
 
 # Streamlit App Code 
-st.title("Resume Scrutinizer ATS")
+st.title("RESUMESKILLMMATCHER")
 
-st.markdown("<h1 style='font-size:24px;'>Connecting Skills with Opportunities</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='font-size:24px;'>Unlock Your Resume's Potential: Get ATS Match Insights Instantly!</h1>", unsafe_allow_html=True)
 
 #for putting job Description 
 input_text=st.text_area("Job Description: ",key="input")
